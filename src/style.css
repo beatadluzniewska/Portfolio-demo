@@ -138,9 +138,11 @@ p {
     a {
         font-size: 15px;
     }
+    a.navbar-brand {
+        padding-left: 10px;
+    }
 
     p,
-    a,
     button {
         margin: 0 auto;
         text-align: center;
@@ -148,6 +150,9 @@ p {
 
     div .launch-buttons {
         justify-content: center;
+    }
+    button.navbar-toggler {
+        margin-right: 10px;
     }
     .app-minature {
         padding-bottom: 15px;
