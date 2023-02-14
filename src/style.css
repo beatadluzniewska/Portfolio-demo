@@ -8,7 +8,7 @@ h1,
 h2,
 h3 {
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
 }
 
 h1 {
@@ -52,7 +52,8 @@ p {
     text-transform: capitalize;
 }
 
-.contact-link {
+.contact-link,
+.app-link {
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
@@ -120,4 +121,35 @@ p {
 }
 #contact {
     margin-bottom: 50px;
+}
+
+@media (max-width: 767.98px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px !important;
+        text-align: center !important;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    p,
+    a {
+        font-size: 15px;
+    }
+
+    p,
+    a,
+    button {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    div .launch-buttons {
+        justify-content: center;
+    }
+    .app-minature {
+        padding-bottom: 15px;
+    }
 }
