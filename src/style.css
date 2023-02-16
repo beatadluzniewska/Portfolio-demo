@@ -7,7 +7,8 @@
 
 h1,
 h2,
-h3 {
+h3,
+h6 {
     text-align: center;
     margin: 0 auto;
 }
@@ -159,4 +160,15 @@ p {
     .app-minature {
         padding-bottom: 15px;
     }
+}
+
+.credits {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+.fa-brands.fa-github {
+    color: rgb(57, 57, 57);
+    font-size: 15px;
 }
